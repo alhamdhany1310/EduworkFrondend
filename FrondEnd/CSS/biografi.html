@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7e15f3fc2d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>My Portofolio</title>
+</head>
+<body>
+    <!-- navigation -->
+    <nav>
+    <div class="wrap">
+        <div class="mylogo"><a href="#">Hamdhany</a></div>
+        <div class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#bio">My Bio</a></li>
+                <li><a href="#hobi">My Hobies</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#friends">My Close Friends</a></li>
+                <li><a href="#kontak">Contact Me</a></li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <!-- header -->
+    <header id="home">
+        <div>
+            <img src="/FrondEnd/CSS/160201014.JPG" alt="">
+            <h1>Maspuk Al Hamdani</h1>
+            <h3 id="frond">Frond End Developer</h3>
+            <a href="">Whatsapp Me</a>
+        </div>
+    </header>
+    
+    <!-- Bio -->
+    <section class="tentang" id="bio">
+        <div class="container">
+            <h2 class="title">My Bio</h2>
+            <div class="content">
+                <div class="column left">
+                    <img src="/FrondEnd/HTML/maspuk.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <p>Assalamu’alaikum Wr.Wb, Halo perkenalkan nama saya Hamdhany, Saya berasal dari Lombok Timur Provinsi NTB, saya adalah anak ketiga dari lima bersaudara. saya senang belajar yang berkaitan dengan teknologi khususnya dalam bidang programming <br> saya juga aktif di beberapa organisasi yang berkaitan dengan progrming dengan tujuan untuk meningkatkan skills saya dalam bidang programming</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobies -->
+    <section class="hobies" id="hobi">
+        <div class="container">
+            <h2 class="title">My Hobies</h2>
+            <div class="hobi-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fa-solid fa-person-swimming"></i>
+                        <div class="text">Berenang</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa-solid fa-film"></i>
+                        <div class="text">Nonton Film</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa-solid fa-music"></i>
+                        <div class="text">Mendengarkan Musik</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills -->
+    <section class="skills" id="skill">
+        <div class="container">
+            <h2 class="title">My Skilss</h2>
+            <div class="skil-content">
+                <div class="bars">
+                    <div class="info">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="line html"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>CSS</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line css"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Javascript</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="line js"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>mysql</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="line mysql"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- close friends -->
+    <section class="hobies" id="friends">
+        <div class="container">
+            <h2 class="title">My Close Friends</h2>
+            <div class="friends">
+                <table>
+                    <tr>
+                        <th>No.</th>
+                        <th>Nama</th>
+                        <th>Jenis Kelamin</th>
+                        <th rowspan="4">Keterangan</th>
+                        
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td>Gio Fany Ibnu Gandi</td>
+                        <td>Laki - Laki</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Tiara Indah Purnama</td>
+                        <td>Perempuan</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Abizar Maulana</td>
+                        <td>Laki - Laki</td>
+                    </tr>
+                    <tr>
+                        <td colspan="5"> <center>Jumlah</center></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- Kontak -->
+    <section class="contact" id="kontak">
+        <div class="container">
+            <h2 class="title">Contact Me</h2>
+            <div class="kontak">
+                <div>
+                    <div class="text">Message me</div>
+                    <form action="http://wa.me/6282339776528/?text=Hai%2CSaya%20ingin%20mengetahui%20produk%20layanan%20dari%20alstore.com">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <span>Created By <a href="">Hamdhany</a> &copy; 2022 All Rights Reserved.</span>
+    </footer>
+</body>
+</html>
