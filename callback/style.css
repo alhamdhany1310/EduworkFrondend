@@ -1,0 +1,10 @@
+.container{
+  margin: auto 50px;
+  border: 4px solid gray;
+  display: flex;
+}
+.container div{
+  width: 120px;
+  background-color: brown;
+  min-height: 120px;
+}
