@@ -1,6 +1,6 @@
-import { Table } from './script';
+import {bambang} from './script.js';
 
-const table = new Table({
+const table = new bambang({
   columns: ['Name', 'Email', 'Phone Number'],
   data: [
     ['John', 'john@example.com', '(353) 01 222 3333'],
